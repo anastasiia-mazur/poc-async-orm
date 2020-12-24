@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poc-async-orm"
+version = "0.1.0"
+description = ""
+authors = ["Anastasiia Mazur <anastasiia@bond.tech>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tortoise-orm = "^0.16.19"
+gino = "^1.0.1"
+orm = "^0.1.5"
+async-sqlalchemy = "^1.0.0"
+peewee-async = "^0.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
